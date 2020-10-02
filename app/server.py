@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/file/d/1-0p6y4_ZBDO6cju2mO_kOhblaxjcEuzR/view?usp=sharing'
-export_file_name = 'stage-1-50-8.pth'
+export_file_url = 'https://drive.google.com/file/d/1xw5twmDsI6ct2I92eNfHrgNMdoXwaw6G/view?usp=sharing'
+export_file_name = 'export.pkl'
 
 classes = ['Abyssinian', 'Bengal', 'Birman', 'Bombay cat', 'British_Shorthair', 'Budgerigars', 'Chinchilla', 'Cockatiel', 'Cockatoo', 'Conures', 'Dalmation', 'Dove', 'Egyptian_Mau', 'Gerbil', 'German Shepherd', 'Golden Retriever', 'Guinea Pig', 'Hamster', 'Husky dog', 'Indian Pariah', 'Labrador', 'Macaw', 'Maine_Coon', 'Mastiff dog', 'Mouse', 'Parakeet', 'Parrot', 'Persian', 'Pigeon', 'Poicephalus', 'Ragdoll', 'Rat', 'Russian_Blue', 'Siamese', 'Sphynx', 'Tabby cat', 'american_bulldog', 'american_pit_bull_terrier', 'basset_hound', 'beagle', 'boxer', 'chihuahua', 'english_cocker_spaniel', 'english_setter', 'german_shorthaired', 'great_pyrenees', 'havanese', 'japanese_chin', 'keeshond', 'leonberger', 'miniature_pinscher', 'newfoundland', 'pomeranian', 'pug', 'saint_bernard', 'samoyed', 'scottish_terrier', 'shiba_inu', 'staffordshire_bull_terrier', 'wheaten_terrier', 'yorkshire_terrier']
 path = Path(__file__).parent
